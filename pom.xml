@@ -52,7 +52,6 @@
     <episodesVersion>1.0-SNAPSHOT</episodesVersion>
     <idgenwebservicesVersion>1.3-SNAPSHOT</idgenwebservicesVersion>
     <rulesengineVersion>0.91-SNAPSHOT</rulesengineVersion>
-    <elisatomfeedclientVersion>0.92-SNAPSHOT</elisatomfeedclientVersion>
 
     <!-- OpenMRS modules -->
     <addresshierarchyVersion>2.12.0</addresshierarchyVersion>
@@ -69,7 +68,6 @@
     <metadatamappingVersion>1.3.1</metadatamappingVersion>
     <metadatasharingVersion>1.2.2</metadatasharingVersion>
     <operationtheaterVersion>1.2.1</operationtheaterVersion>
-    <openmrsERPVersion>1.0.0</openmrsERPVersion>
     <owaVersion>1.9.0</owaVersion>
     <providermanagementVersion>2.5.0</providermanagementVersion>
     <reportingVersion>1.16.0</reportingVersion>
@@ -79,13 +77,10 @@
     <uiframeworkVersion>3.8</uiframeworkVersion>
     <uilibraryVersion>2.0.5</uilibraryVersion>
     <webservices.restVersion>2.24.0</webservices.restVersion>
-    <openmrsERPVersion>1.0.0</openmrsERPVersion>
 
     <!-- Bahmni Reports -->
     <bahmniReportsVersion>0.92.1</bahmniReportsVersion>
 
-    <!-- OpenERP Atomfeed Service -->
-    <openErpAtomfeedServiceVersion>0.93.1</openErpAtomfeedServiceVersion>
 
     <!-- Odoo addons -->
     <odooInitializerVersion>1.1.0-SNAPSHOT</odooInitializerVersion>
@@ -95,21 +90,10 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.bahmni.module</groupId>
-      <artifactId>openelis-atomfeed-client-omod</artifactId>
-      <version>${elisatomfeedclientVersion}</version>
-    </dependency>
-    <dependency>
       <groupId>org.bahmni</groupId>
       <artifactId>reports</artifactId>
       <type>war</type>
       <version>${bahmniReportsVersion}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.bahmni.openerp</groupId>
-      <artifactId>openerp-atomfeed-service</artifactId>
-      <type>war</type>
-      <version>${openErpAtomfeedServiceVersion}</version>
     </dependency>
     <dependency>
       <groupId>net.mekomsolutions</groupId>
@@ -301,11 +285,6 @@
       <artifactId>initializer-omod</artifactId>
       <version>${initializerVersion}</version>
     </dependency>
-    <dependency>
-      <groupId>org.openmrs.module</groupId>
-      <artifactId>erp-omod</artifactId>
-      <version>${openmrsERPVersion}</version>
-    </dependency>
 
     <!-- Odoo deps -->
     <dependency>
@@ -319,11 +298,6 @@
       <artifactId>odoo_initializer</artifactId>
       <version>${odooInitializerVersion}</version>
       <type>zip</type>
-    </dependency>
-    <dependency>
-      <groupId>org.openmrs.module</groupId>
-      <artifactId>erp-omod</artifactId>
-      <version>${openmrsERPVersion}</version>
     </dependency>
     <dependency>
       <groupId>net.mekomsolutions.odoo</groupId>
