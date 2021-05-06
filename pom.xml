@@ -38,10 +38,10 @@
     <odooconfigVersion>1.0.0-SNAPSHOT</odooconfigVersion>
 
     <!-- Bahmni Apps -->
-    <bahmniappsRevision>a268db7</bahmniappsRevision>
+    <bahmniappsRevision>b954149</bahmniappsRevision>
 
     <!-- In dev -->
-    <initializerVersion>2.1.0-SNAPSHOT</initializerVersion>
+    <initializerVersion>2.1.0</initializerVersion>
 
     <!-- Bahmni modules -->
     <appointmentsVersion>1.2.1</appointmentsVersion>
@@ -59,11 +59,11 @@
     <auditLogVersion>1.1-SNAPSHOT</auditLogVersion>
     <bacteriologyVersion>1.2.0</bacteriologyVersion>
     <calculationVersion>1.2</calculationVersion>
-    <emrapiVersion>1.24.5</emrapiVersion>
-    <eventVersion>2.5</eventVersion>
+    <emrapiVersion>1.24.8</emrapiVersion>
+    <eventVersion>2.8.0</eventVersion>
     <exti18nVersion>1.0.0</exti18nVersion>
     <htmlwidgetsVersion>1.8.0</htmlwidgetsVersion>
-    <idgenVersion>4.4.1</idgenVersion>
+    <idgenVersion>4.6.0</idgenVersion>
     <legacyuiVersion>1.3.3</legacyuiVersion>
     <metadatamappingVersion>1.3.1</metadatamappingVersion>
     <metadatasharingVersion>1.2.2</metadatasharingVersion>
@@ -76,11 +76,10 @@
     <uicommonsVersion>2.3.0</uicommonsVersion>
     <uiframeworkVersion>3.8</uiframeworkVersion>
     <uilibraryVersion>2.0.5</uilibraryVersion>
-    <webservices.restVersion>2.24.0</webservices.restVersion>
+    <webservices.restVersion>2.29.0</webservices.restVersion>
 
     <!-- Bahmni Reports -->
     <bahmniReportsVersion>0.92.1</bahmniReportsVersion>
-
 
     <!-- Odoo addons -->
     <odooInitializerVersion>1.1.0-SNAPSHOT</odooInitializerVersion>
