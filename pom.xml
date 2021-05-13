@@ -42,6 +42,8 @@
 
     <!-- In dev -->
     <initializerVersion>2.1.0</initializerVersion>
+    <postbahmniVersion>1.0.0-SNAPSHOT</postbahmniVersion>
+
 
     <!-- Bahmni modules -->
     <appointmentsVersion>1.2.1</appointmentsVersion>
@@ -56,7 +58,7 @@
     <!-- OpenMRS modules -->
     <addresshierarchyVersion>2.12.0</addresshierarchyVersion>
     <appframeworkVersion>2.10.0</appframeworkVersion>
-    <auditLogVersion>1.1-SNAPSHOT</auditLogVersion>
+    <auditLogVersion> 1.1-1.0.0</auditLogVersion>
     <bacteriologyVersion>1.2.0</bacteriologyVersion>
     <calculationVersion>1.2</calculationVersion>
     <emrapiVersion>1.24.8</emrapiVersion>
@@ -80,6 +82,9 @@
 
     <!-- Bahmni Reports -->
     <bahmniReportsVersion>0.92.1</bahmniReportsVersion>
+   
+    <!-- OpenERP Atomfeed Service -->
+    <openErpAtomfeedServiceVersion>0.93.1</openErpAtomfeedServiceVersion>
 
     <!-- Odoo addons -->
     <odooInitializerVersion>1.1.0-SNAPSHOT</odooInitializerVersion>
@@ -99,6 +104,12 @@
       <artifactId>openmrs-config-easydoc</artifactId>
       <type>zip</type>
       <version>${openmrsconfigVersion}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.bahmni.openerp</groupId>
+      <artifactId>openerp-atomfeed-service</artifactId>
+      <type>war</type>
+      <version>${openErpAtomfeedServiceVersion}</version>
     </dependency>
     <dependency>
       <groupId>net.mekomsolutions</groupId>
@@ -283,6 +294,11 @@
       <groupId>org.openmrs.module</groupId>
       <artifactId>initializer-omod</artifactId>
       <version>${initializerVersion}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openmrs.module</groupId>
+      <artifactId>postbahmni-omod</artifactId>
+      <version>${postbahmniVersion}</version>
     </dependency>
 
     <!-- Odoo deps -->
