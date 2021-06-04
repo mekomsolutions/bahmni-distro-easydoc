@@ -3,7 +3,7 @@
   <groupId>net.mekomsolutions</groupId>
   <artifactId>bahmni-distro-easydoc</artifactId>
   <name>Easydoc distribution</name>
-  <version>1.1.0-SNAPSHOT</version>
+  <version>1.0.1</version>
   <packaging>pom</packaging>
 
   <developers>
@@ -38,7 +38,7 @@
     <odooconfigVersion>1.0.0</odooconfigVersion>
 
     <!-- Bahmni Apps -->
-    <bahmniappsRevision>b954149</bahmniappsRevision>
+    <bahmniappsRevision>530808e</bahmniappsRevision>
 
     <!-- In dev -->
     <initializerVersion>2.1.0</initializerVersion>
