@@ -33,7 +33,7 @@
     <openMRSVersion>2.1.3</openMRSVersion>
 
     <!-- Configs -->
-    <openmrsconfigVersion>1.0.0</openmrsconfigVersion>
+    <openmrsconfigVersion>1.1.0-SNAPSHOT</openmrsconfigVersion>
     <bahmniconfigVersion>1.0.0</bahmniconfigVersion>
     <odooconfigVersion>1.0.0</odooconfigVersion>
 
